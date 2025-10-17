@@ -44,7 +44,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
         <>
             <aside className={`fixed lg:relative inset-y-0 left-0 z-40 w-64 bg-card border-r transform ${isOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0 transition-transform duration-300 ease-in-out`}>
                 <div className="flex items-center justify-between h-16 px-6 border-b">
-                    <h1 className="text-xl font-bold text-primary">SmartCollege</h1>
+                    <h1 className="text-xl font-bold text-primary">CampusFlow</h1>
                     <button onClick={() => setIsOpen(false)} className="lg:hidden">
                         <Icon name="close" />
                     </button>

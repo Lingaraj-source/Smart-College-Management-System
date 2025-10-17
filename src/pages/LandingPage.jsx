@@ -16,7 +16,7 @@ const LandingPage = () => {
     return (
         <div className="w-full bg-background text-foreground">
             <header className="container mx-auto flex items-center justify-between p-4">
-                <h1 className="text-2xl font-bold text-primary">SmartCollege</h1>
+                <h1 className="text-2xl font-bold text-primary">CampusFlow</h1>
                 <nav className="hidden md:flex items-center gap-6">
                     <a href="#features" onClick={(e) => handleNavClick(e, 'features')} className="hover:text-primary cursor-pointer">Features</a>
                     <a href="#testimonials" onClick={(e) => handleNavClick(e, 'testimonials')} className="hover:text-primary cursor-pointer">Testimonials</a>
@@ -68,7 +68,7 @@ const LandingPage = () => {
                                 <div className="flex items-center gap-4 mt-4">
                                     <img src="https://placehold.co/100x100/ec4899/FFFFFF?text=JS" alt="Student testimonial" className="w-12 h-12 rounded-full" />
                                     <div>
-                                        <p className="font-semibold">Jane Smith</p>
+                                        <p className="font-semibold">A. Bhaskar Rao</p>
                                         <p className="text-sm text-muted-foreground">CSE Student</p>
                                     </div>
                                 </div>
@@ -80,7 +80,7 @@ const LandingPage = () => {
                                 <div className="flex items-center gap-4 mt-4">
                                     <img src="https://placehold.co/100x100/22c55e/FFFFFF?text=PD" alt="Faculty testimonial" className="w-12 h-12 rounded-full" />
                                     <div>
-                                        <p className="font-semibold">Prof. Peter Davis</p>
+                                        <p className="font-semibold">Prof. Sanjay Swain</p>
                                         <p className="text-sm text-muted-foreground">Mechanical Engineering</p>
                                     </div>
                                 </div>
@@ -92,7 +92,7 @@ const LandingPage = () => {
                                 <div className="flex items-center gap-4 mt-4">
                                     <img src="https://placehold.co/100x100/6366f1/FFFFFF?text=ER" alt="Admin testimonial" className="w-12 h-12 rounded-full" />
                                     <div>
-                                        <p className="font-semibold">Dr. Evelyn Reed</p>
+                                        <p className="font-semibold">Dr. Sagar Swain</p>
                                         <p className="text-sm text-muted-foreground">System Administrator</p>
                                     </div>
                                 </div>
@@ -103,7 +103,7 @@ const LandingPage = () => {
             </section>
             
             <footer id="contact" className="bg-secondary border-t py-8">
-                <div className="container mx-auto text-center text-muted-foreground"><p>&copy; 2024 SmartCollege. All rights reserved.</p></div>
+                <div className="container mx-auto text-center text-muted-foreground"><p>&copy; 2025 SmartCollege. All rights reserved.</p></div>
             </footer>
         </div>
     );
